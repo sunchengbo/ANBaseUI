@@ -41,4 +41,22 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
+  s.subspec 'Core' do |core|
+      core.source_files = 'ANBaseUI/Classes/Core/**/*'
+      core.resource_bundles = {
+          'ANBaseUI' => ['ANBaseUI/Assets/Core/*.png']
+      }
+      core.dependency 'SnapKit'
+      core.dependency 'Kingfisher'
+      core.dependency 'PKHUD'
+      core.dependency 'Toast-Swift'
+      core.dependency 'RxSwift'
+      core.dependency 'RxCocoa'
+      core.dependency 'MJRefresh'
+  end
+  
+  s.subspec 'UserDefaultExtension' do |ud|
+      ud.source_files = 'ANBaseUI/Classes/UserDefaultExtension/**/*'
+  end
+  
 end
