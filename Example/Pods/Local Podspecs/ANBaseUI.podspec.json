@@ -1,0 +1,22 @@
+{
+  "name": "ANBaseUI",
+  "version": "0.1.0",
+  "summary": "A short description of ANBaseUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sunchengbo/ANBaseUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunchengbo": "594744124@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sunchengbo/ANBaseUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ANBaseUI/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ANBaseUI (0.1.0)
+
+DEPENDENCIES:
+  - ANBaseUI (from `../`)
+
+EXTERNAL SOURCES:
+  ANBaseUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANBaseUI: dfd8e21a38440ad4c492a729c6c1c6523ebcaa9f
+
+PODFILE CHECKSUM: 1d9821a5e79537bcb4f939e14a8fac10b780e679
+
+COCOAPODS: 1.15.2
